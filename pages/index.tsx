@@ -13,7 +13,7 @@ const HomePage: NextPage = () => (
       <ul className="flex flex-col space-y-2">
         <li>
           <Link href="/inbox">
-            <a className="underline">Inbox Page</a>
+            <a className="underline hover:no-underline">Inbox Page</a>
           </Link>
         </li>
         <li className="text">
