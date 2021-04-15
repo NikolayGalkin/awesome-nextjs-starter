@@ -1,4 +1,5 @@
 import '@fontsource/poppins'
+import '@fontsource/inter'
 import '../styles/globals.css'
 
 import { AppProps } from 'next/app'

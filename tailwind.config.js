@@ -1,4 +1,5 @@
 const { coolGray } = require('tailwindcss/colors')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   mode: 'jit',
@@ -7,11 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gary: coolGray,
+        gray: coolGray,
         'black-pearl': '#091921',
+
+        background: '#f2f2f2',
+        primary: '#fa4a0c',
       },
       fontFamily: {
-        // sans: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', ...fontFamily.sans],
       },
       borderWidth: {
         1: '1px',
