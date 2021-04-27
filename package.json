@@ -1,6 +1,6 @@
 {
   "name": "next-sb-ts-tw",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -20,8 +20,8 @@
     "tailwindcss-pseudo-elements": "^2.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.41",
-    "@types/react": "^17.0.3",
+    "@types/node": "^15.0.0",
+    "@types/react": "^17.0.4",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "autoprefixer": "^10.2.5",
@@ -31,7 +31,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "postcss": "^8.2.12",
+    "postcss": "^8.2.13",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
   }
