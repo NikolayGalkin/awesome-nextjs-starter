@@ -1,5 +1,5 @@
-import { FC } from 'react'
+import { FC, HTMLAttributes } from 'react'
 
-const Footer: FC = ({ children }) => <footer>{children}</footer>
+const Footer: FC<HTMLAttributes<HTMLElement>> = ({ children, ...rest }) => <footer {...rest}>{children}</footer>
 
 export default Footer

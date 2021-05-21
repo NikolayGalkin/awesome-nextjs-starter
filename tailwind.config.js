@@ -1,6 +1,7 @@
 const { coolGray } = require('tailwindcss/colors')
 
-module.exports = {
+module.exports = { /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
+
   mode: 'jit',
   purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
   darkMode: false, // or 'media' or 'class'
@@ -12,9 +13,6 @@ module.exports = {
       },
       fontFamily: {
         // sans: ['Poppins', 'sans-serif'],
-      },
-      borderWidth: {
-        1: '1px',
       },
     },
   },
