@@ -37,6 +37,7 @@ const InboxPage: NextPage = () => (
               objectFit="cover"
               width="32"
               height="32"
+              alt="avatar"
             />
             <span className="ml-4 mr-2 text-sm font-medium text-white">Monica White</span>
             <BiChevronDown className="ml-auto text-white" />
@@ -336,6 +337,7 @@ const InboxPage: NextPage = () => (
                       objectFit="cover"
                       width="36"
                       height="36"
+                      alt="avatar"
                     />
                   </div>
                 </div>
@@ -362,6 +364,7 @@ const InboxPage: NextPage = () => (
                       objectFit="cover"
                       width="36"
                       height="36"
+                      alt="avatar"
                     />
                   </div>
                 </div>
@@ -395,6 +398,7 @@ const InboxPage: NextPage = () => (
                       objectFit="cover"
                       width="36"
                       height="36"
+                      alt="avatar"
                     />
                   </div>
                 </div>
@@ -421,6 +425,7 @@ const InboxPage: NextPage = () => (
                       objectFit="cover"
                       width="36"
                       height="36"
+                      alt="avatar"
                     />
                   </div>
                 </div>
