@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
 const { coolGray } = require('tailwindcss/colors')
 
 module.exports = { /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
@@ -14,7 +15,7 @@ module.exports = { /** @type {import("@types/tailwindcss/tailwind-config").Tailw
         'black-pearl': '#091921',
       },
       fontFamily: {
-        // sans: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', ...fontFamily.sans],
       },
     },
   },
