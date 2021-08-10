@@ -1,6 +1,6 @@
 {
   "name": "next-sb-ts-tw",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,11 +24,11 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@types/node": "^16.4.10",
-    "@types/react": "^17.0.15",
+    "@types/node": "^16.4.13",
+    "@types/react": "^17.0.16",
     "@types/tailwindcss": "^2.2.1",
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
     "autoprefixer": "^10.3.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.0.1",
