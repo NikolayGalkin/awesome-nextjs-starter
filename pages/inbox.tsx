@@ -92,9 +92,7 @@ const InboxPage: NextPage = () => (
       <div className="flex flex-1 overflow-hidden">
         <aside className="w-64 p-6 overflow-y-auto bg-gray-100">
           <nav>
-            <h2 className="text-xs font-semibold tracking-wide text-gray-600 uppercase">
-              Mailboxes
-            </h2>
+            <h2 className="text-xs font-semibold tracking-wide text-gray-600 uppercase">Mailboxes</h2>
             <div className="mt-4 space-y-2">
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-900 transition-colors duration-300 bg-gray-200 rounded-lg hover:text-gray-900 hover:bg-gray-200"
@@ -104,9 +102,7 @@ const InboxPage: NextPage = () => (
                   <FiInbox className="w-5 h-5 text-gray-700" />
                   <span className="">Inbox</span>
                 </span>
-                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">
-                  6
-                </span>
+                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">6</span>
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
@@ -125,9 +121,7 @@ const InboxPage: NextPage = () => (
                   <BiEdit className="w-5 h-5" />
                   <span className="">Drafts</span>
                 </span>
-                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">
-                  2
-                </span>
+                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">2</span>
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
@@ -137,9 +131,7 @@ const InboxPage: NextPage = () => (
                   <BiUserCircle className="w-5 h-5" />
                   <span className="">Assigned</span>
                 </span>
-                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">
-                  1
-                </span>
+                <span className="px-3 py-1 text-xs font-semibold text-gray-700 bg-gray-300 rounded-full">1</span>
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
@@ -160,9 +152,7 @@ const InboxPage: NextPage = () => (
                 </span>
               </a>
             </div>
-            <h2 className="mt-8 text-xs font-semibold tracking-wide text-gray-600 uppercase">
-              Folders
-            </h2>
+            <h2 className="mt-8 text-xs font-semibold tracking-wide text-gray-600 uppercase">Folders</h2>
             <div className="flex flex-col mt-4 space-y-4">
               <a className="text-sm font-medium text-gray-700" href="#">
                 Refunds
@@ -195,9 +185,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-gray-200 border-t">
@@ -207,9 +197,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -219,9 +209,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -231,9 +221,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -243,9 +233,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -255,9 +245,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -267,9 +257,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
               <a href="#" className="px-6 pt-3 pb-4 bg-white border-t">
@@ -279,9 +269,9 @@ const InboxPage: NextPage = () => (
                 </div>
                 <p className="text-sm text-gray-900">Refund</p>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed
-                  natus? Necessitatibus consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod
-                  magni, dolor necessitatibus vero inventore maxime ad? Sed, esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore sed natus? Necessitatibus
+                  consequatur nesciunt suscipit nihil ipsa. Porro, sunt. Quod magni, dolor necessitatibus vero inventore
+                  maxime ad? Sed, esse.
                 </p>
               </a>
             </div>
@@ -325,8 +315,7 @@ const InboxPage: NextPage = () => (
               <article className="flex flex-col px-10 pt-6 pb-8 space-y-6 bg-white rounded-lg shadow">
                 <div className="flex items-center justify-between">
                   <p className="text-lg font-semibold">
-                    <span className="text-gray-900">Joe Armstrong</span>{' '}
-                    <span className="text-gray-600">wrote</span>
+                    <span className="text-gray-900">Joe Armstrong</span> <span className="text-gray-600">wrote</span>
                   </p>
                   <div className="flex items-center space-x-5">
                     <span className="text-sm text-gray-600">Yesterdat at 7:24 AM</span>
@@ -343,17 +332,15 @@ const InboxPage: NextPage = () => (
                 </div>
                 <div className="text-sm text-gray-800">
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                 </div>
               </article>
               <article className="flex flex-col px-10 pt-6 pb-8 space-y-6 bg-white rounded-lg shadow">
                 <div className="flex items-center justify-between">
                   <p className="text-lg font-semibold">
-                    <span className="text-gray-900">Monica White</span>{' '}
-                    <span className="text-gray-600">reply</span>
+                    <span className="text-gray-900">Monica White</span> <span className="text-gray-600">reply</span>
                   </p>
                   <div className="flex items-center space-x-5">
                     <span className="text-sm text-gray-600">Yesterdat at 7:24 AM</span>
@@ -370,14 +357,12 @@ const InboxPage: NextPage = () => (
                 </div>
                 <div className="text-sm prose-2xl text-gray-800">
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                   <p className="font-semibold text-gray-900 ">Monica White</p>
                   <p className="">Customer Service</p>
@@ -386,8 +371,7 @@ const InboxPage: NextPage = () => (
               <article className="flex flex-col px-10 pt-6 pb-8 space-y-6 bg-white rounded-lg shadow">
                 <div className="flex items-center justify-between">
                   <p className="text-lg font-semibold">
-                    <span className="text-gray-900">Joe Armstrong</span>{' '}
-                    <span className="text-gray-600">reply</span>
+                    <span className="text-gray-900">Joe Armstrong</span> <span className="text-gray-600">reply</span>
                   </p>
                   <div className="flex items-center space-x-5">
                     <span className="text-sm text-gray-600">Yesterdat at 7:24 AM</span>
@@ -404,17 +388,15 @@ const InboxPage: NextPage = () => (
                 </div>
                 <div className="text-sm text-gray-800">
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                 </div>
               </article>
               <article className="flex flex-col px-10 pt-6 pb-8 space-y-6 bg-white rounded-lg shadow">
                 <div className="flex items-center justify-between">
                   <p className="text-lg font-semibold">
-                    <span className="text-gray-900">Monica White</span>{' '}
-                    <span className="text-gray-600">reply</span>
+                    <span className="text-gray-900">Monica White</span> <span className="text-gray-600">reply</span>
                   </p>
                   <div className="flex items-center space-x-5">
                     <span className="text-sm text-gray-600">Yesterdat at 7:24 AM</span>
@@ -431,14 +413,12 @@ const InboxPage: NextPage = () => (
                 </div>
                 <div className="text-sm prose-2xl text-gray-800">
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                   <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero
-                    id unde consequuntur eum ex minus aliquam veniam cumque optio rerum sint, sit ad
-                    ducimus ipsam odit quasi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea eius, vero id unde consequuntur
+                    eum ex minus aliquam veniam cumque optio rerum sint, sit ad ducimus ipsam odit quasi.
                   </p>
                   <p className="font-semibold text-gray-900 ">Monica White</p>
                   <p className="">Customer Service</p>
