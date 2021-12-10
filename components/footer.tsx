@@ -1,4 +1,4 @@
-import { FC, HTMLAttributes } from 'react'
+import type { FC, HTMLAttributes } from 'react'
 
 const Footer: FC<HTMLAttributes<HTMLElement>> = ({ children, ...rest }) => <footer {...rest}>{children}</footer>
 

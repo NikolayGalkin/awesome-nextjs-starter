@@ -1,4 +1,4 @@
-import { FC, HTMLAttributes } from 'react'
+import type { FC, HTMLAttributes } from 'react'
 import Link from 'next/link'
 
 const Header: FC<HTMLAttributes<HTMLElement>> = ({ children, ...rest }) => (
@@ -8,9 +8,7 @@ const Header: FC<HTMLAttributes<HTMLElement>> = ({ children, ...rest }) => (
         <div className="flex justify-between">
           <div className="">
             <Link href="/">
-              <a>
-                Logo
-              </a>
+              <a>Logo</a>
             </Link>
           </div>
           <div className="">

@@ -1,27 +1,46 @@
-import { FC } from 'react'
+import type { FC } from 'react'
 import clsx from 'clsx'
+import { IconBaseProps } from 'react-icons'
 import { AiFillInstagram } from 'react-icons/ai'
 import { IoLogoFacebook } from 'react-icons/io'
 import { RiPhoneFill } from 'react-icons/ri'
-import { IconBaseProps } from 'react-icons'
 
 export enum TSocial {
-  Facebook = 'facebook',
-  Instagram = 'instagram',
+  Facebook,
+  Instagram,
 }
 
 export enum TContact {
-  Phone = 'phone',
-  Email = 'email',
+  Phone,
+  Email,
 }
 
 interface IIcon extends IconBaseProps {
+  color: TColor
   variant: TSocial | TContact
+}
+
+type TColor = 'base' | 'black' | 'white'
+
+const ColorMap: Record<TColor, string> = {
+  base: 'text-base',
+  black: 'text-black',
+  white: 'text-white',
+}
+
+const TextSizeMap: Record<string, string> = {
+  xs: 'text-md',
+  md: 'text-2xl',
+  lg: 'text-3xl',
+  xl: 'text-4xl',
+  '2xl': 'text-5xl',
 }
 
 const Icon: FC<IIcon> = ({ variant, className, size = 'md', color = 'black', ...rest }) => {
   const classes = clsx(
     className,
+    ColorMap[color],
+    TextSizeMap[size],
     {
       'text-base': color === 'base',
       'text-black': color === 'black',
@@ -36,13 +55,15 @@ const Icon: FC<IIcon> = ({ variant, className, size = 'md', color = 'black', ...
     }
   )
 
-  return (
-    <>
-      {variant === TSocial.Instagram && <AiFillInstagram className={classes} {...rest} />}
-      {variant === TSocial.Facebook && <IoLogoFacebook className={classes} {...rest} />}
-      {variant === TContact.Phone && <RiPhoneFill className={classes} {...rest} />}
-    </>
-  )
+  const IconMap = {
+    [TSocial.Instagram]: AiFillInstagram,
+    [TSocial.Facebook]: IoLogoFacebook,
+    [TContact.Phone]: RiPhoneFill,
+  }
+
+  const Component = IconMap[variant]
+
+  return <Component className={classes} {...rest} />
 }
 
 export default Icon

@@ -1,25 +1,25 @@
-import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { NextPage } from 'next'
 import {
+  BiArchiveIn,
+  BiArrowBack,
+  BiBell,
+  BiCheckCircle,
   BiChevronDown,
   BiChevronUp,
-  BiBell,
-  BiSearch,
-  BiFlag,
-  BiEdit,
-  BiUserCircle,
-  BiCheckCircle,
-  BiTrashAlt,
-  BiSortUp,
-  BiArrowBack,
-  BiTag,
-  BiArchiveIn,
   BiDotsHorizontalRounded,
+  BiEdit,
+  BiFlag,
+  BiSearch,
+  BiSortUp,
+  BiTag,
+  BiTrashAlt,
+  BiUserCircle,
 } from 'react-icons/bi'
 import { BsQuestionCircle } from 'react-icons/bs'
 import { FiInbox } from 'react-icons/fi'
+
+import type { NextPage } from 'next'
 
 const InboxPage: NextPage = () => (
   <>
@@ -47,26 +47,22 @@ const InboxPage: NextPage = () => (
           <nav className="flex space-x-3">
             <a
               className="px-3 py-2 text-sm font-medium leading-none text-white transition-colors duration-300 bg-gray-800 rounded-lg hover:bg-gray-600"
-              href="#"
-            >
+              href="#">
               Mailbox
             </a>
             <a
               className="px-3 py-2 text-sm font-medium leading-none text-white transition-colors duration-300 rounded-lg hover:bg-gray-600"
-              href="#"
-            >
+              href="#">
               Customers
             </a>
             <a
               className="px-3 py-2 text-sm font-medium leading-none text-white transition-colors duration-300 rounded-lg hover:bg-gray-600"
-              href="#"
-            >
+              href="#">
               Reporting
             </a>
             <a
               className="px-3 py-2 text-sm font-medium leading-none text-white transition-colors duration-300 rounded-lg hover:bg-gray-600"
-              href="#"
-            >
+              href="#">
               Manage
             </a>
           </nav>
@@ -96,8 +92,7 @@ const InboxPage: NextPage = () => (
             <div className="mt-4 space-y-2">
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-900 transition-colors duration-300 bg-gray-200 rounded-lg hover:text-gray-900 hover:bg-gray-200"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <FiInbox className="w-5 h-5 text-gray-700" />
                   <span className="">Inbox</span>
@@ -106,8 +101,7 @@ const InboxPage: NextPage = () => (
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <BiFlag className="w-5 h-5" />
                   <span className="">Flaged</span>
@@ -115,8 +109,7 @@ const InboxPage: NextPage = () => (
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <BiEdit className="w-5 h-5" />
                   <span className="">Drafts</span>
@@ -125,8 +118,7 @@ const InboxPage: NextPage = () => (
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <BiUserCircle className="w-5 h-5" />
                   <span className="">Assigned</span>
@@ -135,8 +127,7 @@ const InboxPage: NextPage = () => (
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <BiCheckCircle className="w-5 h-5" />
                   <span className="">Closed</span>
@@ -144,8 +135,7 @@ const InboxPage: NextPage = () => (
               </a>
               <a
                 className="flex items-center justify-between px-3 py-2 -mx-3 text-sm font-medium text-gray-600 transition-colors duration-300 rounded-lg hover:bg-gray-200 hover:text-gray-900"
-                href="#"
-              >
+                href="#">
                 <span className="inline-flex items-center space-x-2">
                   <BiTrashAlt className="w-5 h-5" />
                   <span className="">Junk</span>
