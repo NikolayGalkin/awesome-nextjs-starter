@@ -1,6 +1,6 @@
 {
   "name": "next-sb-ts-tw",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,29 +18,29 @@
     "@tailwindcss/line-clamp": "^0.3.1",
     "@tailwindcss/typography": "^0.5.0",
     "clsx": "^1.1.1",
-    "next": "12.0.8",
+    "next": "12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "tailwindcss": "^3.0.15"
+    "tailwindcss": "^3.0.17"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.0.3",
+    "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@types/node": "^17.0.10",
+    "@types/node": "^17.0.12",
     "@types/react": "^17.0.38",
-    "@types/tailwindcss": "^3.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
+    "@types/tailwindcss": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.7.0",
-    "eslint-config-next": "^12.0.8",
+    "eslint-config-next": "^12.0.9",
     "eslint-config-prettier": "^8.3.0",
     "next-plugin-bundle-stats": "^3.2.4",
-    "npm-check-updates": "^12.1.0",
+    "npm-check-updates": "^12.2.1",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5"
   }
 }
