@@ -8,7 +8,7 @@ const HomePage: NextPage = () => (
     <Head>
       <title>Home Page</title>
     </Head>
-    <main className="flex flex-col items-center justify-center min-h-screen space-y-16">
+    <main className="flex min-h-screen flex-col items-center justify-center space-y-16">
       <h1 className="text-lg font-semibold text-gray-900">Home Page</h1>
       <ul className="flex flex-col space-y-2">
         <li>

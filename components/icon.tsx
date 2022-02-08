@@ -5,6 +5,9 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { IoLogoFacebook } from 'react-icons/io'
 import { RiPhoneFill } from 'react-icons/ri'
 
+type TColor = 'base' | 'black' | 'white'
+type TSize = 'xs' | 'md' | 'lg' | 'xl' | '2xl'
+
 export enum TSocial {
   Facebook,
   Instagram,
@@ -17,10 +20,9 @@ export enum TContact {
 
 interface IIcon extends IconBaseProps {
   color: TColor
+  size: TSize
   variant: TSocial | TContact
 }
-
-type TColor = 'base' | 'black' | 'white'
 
 const ColorMap: Record<TColor, string> = {
   base: 'text-base',
@@ -28,7 +30,7 @@ const ColorMap: Record<TColor, string> = {
   white: 'text-white',
 }
 
-const TextSizeMap: Record<string, string> = {
+const TextSizeMap: Record<TSize, string> = {
   xs: 'text-md',
   md: 'text-2xl',
   lg: 'text-3xl',
@@ -37,23 +39,7 @@ const TextSizeMap: Record<string, string> = {
 }
 
 const Icon: FC<IIcon> = ({ variant, className, size = 'md', color = 'black', ...rest }) => {
-  const classes = clsx(
-    className,
-    ColorMap[color],
-    TextSizeMap[size],
-    {
-      'text-base': color === 'base',
-      'text-black': color === 'black',
-      'text-white': color === 'white',
-    },
-    {
-      'text-md': size === 'xs',
-      'text-2xl': size === 'md',
-      'text-3xl': size === 'lg',
-      'text-4xl': size === 'xl',
-      'text-5xl': size === '2xl',
-    }
-  )
+  const classes = clsx(className, ColorMap[color], TextSizeMap[size])
 
   const IconMap = {
     [TSocial.Instagram]: AiFillInstagram,
